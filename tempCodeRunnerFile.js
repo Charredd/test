@@ -1,7 +1,4 @@
-for(var i = 1; i <= 8; i++){
-    
-    if (i%2==0){
-        continue;
-    }
-    console.log(i);
-}
+let arr = [1, 2, 3, 4, 5];
+arr.pop();
+arr.push(6);
+console.log(arr);
