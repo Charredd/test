@@ -1,2 +1,7 @@
-var arr = ['0000','qqqq','wwww'];
-console.log(arr[0]);
+for(var i = 1; i <= 8; i++){
+    
+    if (i%2==0){
+        continue;
+    }
+    console.log(i);
+}
